@@ -68,14 +68,14 @@ byu-header #site-title a:hover {
 }
 
 .p-gotham p, .p-gotham span, .p-gotham div, .p-gotham a {
-  font-family: "Gotham A", "Gotham B", sans-serif;
+  font-family: "HCo Ringside Narrow SSm", Arial, sans-serif;
 }
 
 .p-libreb p, .p-libreb span, .p-libreb div, .p-libreb a {
-  font-family: "Libre Baskerville", Georgia, serif;
+  font-family: "HCo Ringside Narrow SSm", Arial, sans-serif;
 }
 .p-sourcesans p, .p-sourcesans span, .p-sourcesans div, .p-sourcesans a {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "HCo Ringside Narrow SSm", Arial, sans-serif;
 }
 
 p {
@@ -87,7 +87,7 @@ p {
 #site-title span,
 #site-title div,
 #site-title a {
-  font-family: "Vitesse A", "Vitesse B", serif;
+  font-family: "HCo Ringside Narrow SSm", Arial, sans-serif;
 }
 
 .subtitle.italic {
@@ -200,9 +200,9 @@ byu-search {
   .h3-vitesse h3,
   .h4-vitesse h4,
   .h5-vitesse h5 {
-    font-family: "Vitesse A", "Vitesse B", Georgia, serif;
+    font-family: "HCo Ringside Narrow SSm", Arial, sans-serif;
     span, a {
-      font-family: "Vitesse A", "Vitesse B", Georgia, serif;
+      font-family: "HCo Ringside Narrow SSm", Arial, sans-serif;
     }
   }
 
@@ -211,9 +211,9 @@ byu-search {
   .h3-gotham h3,
   .h4-gotham h4,
   .h5-gotham h5 {
-    font-family: "Gotham A", "Gotham B", Arial, sans-serif;
+    font-family: "HCo Ringside Narrow SSm", Arial, sans-serif;
     span, a {
-      font-family: "Gotham A", "Gotham B", Arial, sans-serif;
+      font-family: "HCo Ringside Narrow SSm", Arial, sans-serif;
     }
   }
 
@@ -222,9 +222,9 @@ byu-search {
   .h3-sentinel h3,
   .h4-sentinel h4,
   .h5-sentinel h5 {
-    font-family: "Sentinel A", "Sentinel B", "Vitesse A", "Vitesse B", Helvetica, serif;
+    font-family: "HCo Ringside Narrow SSm", Arial, sans-serif;
     span, a {
-      font-family: "Sentinel A", "Sentinel B", "Vitesse A", "Vitesse B", Helvetica, serif;
+      font-family: "HCo Ringside Narrow SSm", Arial, sans-serif;
     }
   }
 .h1-sourcesans h1,
@@ -232,9 +232,9 @@ byu-search {
 .h3-sourcesans h3,
 .h4-sourcesans h4,
 .h5-sourcesans h5 {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "HCo Ringside Narrow SSm", Arial, sans-serif;
   span, a {
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: "HCo Ringside Narrow SSm", Arial, sans-serif;
   }
 }
 
@@ -243,9 +243,9 @@ byu-search {
 .h3-libreb h3,
 .h4-libreb h4,
 .h5-libreb h5 {
-  font-family: 'Libre Baskerville', serif;
+  font-family: "HCo Ringside Narrow SSm", Arial, sans-serif;
   span, a {
-    font-family: 'Libre Baskerville', serif;
+    font-family: "HCo Ringside Narrow SSm", Arial, sans-serif;
   }
 }
 
@@ -369,9 +369,9 @@ byu-search {
   /*}*/
   /* - mobile */
   @media screen and (max-width: 767px) {
-    byu-footer:not('normal') .two-column,
-    byu-footer:not('normal') .three-column,
-    byu-footer:not('normal') .four-column {
+    byu-footer:not(.normal) .two-column,
+    byu-footer:not(.normal) .three-column,
+    byu-footer:not(.normal) .four-column {
       column: 1;
     }
   }

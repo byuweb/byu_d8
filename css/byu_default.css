@@ -29,13 +29,13 @@ byu-header #site-title a:hover {
   color: #fff; }
 
 .p-gotham p, .p-gotham span, .p-gotham div, .p-gotham a {
-  font-family: "Gotham A", "Gotham B", sans-serif; }
+  font-family: "HCo Ringside Narrow SSm", Arial, sans-serif; }
 
 .p-libreb p, .p-libreb span, .p-libreb div, .p-libreb a {
-  font-family: "Libre Baskerville", Georgia, serif; }
+  font-family: "HCo Ringside Narrow SSm", Arial, sans-serif; }
 
 .p-sourcesans p, .p-sourcesans span, .p-sourcesans div, .p-sourcesans a {
-  font-family: 'Source Sans Pro', sans-serif; }
+  font-family: "HCo Ringside Narrow SSm", Arial, sans-serif; }
 
 p {
   color: #141414; }
@@ -45,7 +45,7 @@ p {
 #site-title span,
 #site-title div,
 #site-title a {
-  font-family: "Vitesse A", "Vitesse B", serif; }
+  font-family: "HCo Ringside Narrow SSm", Arial, sans-serif; }
 
 .subtitle.italic {
   font-style: italic; }
@@ -115,7 +115,7 @@ byu-search input[type=search] {
 .h3-vitesse h3,
 .h4-vitesse h4,
 .h5-vitesse h5 {
-  font-family: "Vitesse A", "Vitesse B", Georgia, serif; }
+  font-family: "HCo Ringside Narrow SSm", Arial, sans-serif; }
   .h1-vitesse h1 span, .h1-vitesse h1 a,
   .h2-vitesse h2 span,
   .h2-vitesse h2 a,
@@ -125,14 +125,14 @@ byu-search input[type=search] {
   .h4-vitesse h4 a,
   .h5-vitesse h5 span,
   .h5-vitesse h5 a {
-    font-family: "Vitesse A", "Vitesse B", Georgia, serif; }
+    font-family: "HCo Ringside Narrow SSm", Arial, sans-serif; }
 
 .h1-gotham h1,
 .h2-gotham h2,
 .h3-gotham h3,
 .h4-gotham h4,
 .h5-gotham h5 {
-  font-family: "Gotham A", "Gotham B", Arial, sans-serif; }
+  font-family: "HCo Ringside Narrow SSm", Arial, sans-serif; }
   .h1-gotham h1 span, .h1-gotham h1 a,
   .h2-gotham h2 span,
   .h2-gotham h2 a,
@@ -142,14 +142,14 @@ byu-search input[type=search] {
   .h4-gotham h4 a,
   .h5-gotham h5 span,
   .h5-gotham h5 a {
-    font-family: "Gotham A", "Gotham B", Arial, sans-serif; }
+    font-family: "HCo Ringside Narrow SSm", Arial, sans-serif; }
 
 .h1-sentinel h1,
 .h2-sentinel h2,
 .h3-sentinel h3,
 .h4-sentinel h4,
 .h5-sentinel h5 {
-  font-family: "Sentinel A", "Sentinel B", "Vitesse A", "Vitesse B", Helvetica, serif; }
+  font-family: "HCo Ringside Narrow SSm", Arial, sans-serif; }
   .h1-sentinel h1 span, .h1-sentinel h1 a,
   .h2-sentinel h2 span,
   .h2-sentinel h2 a,
@@ -159,14 +159,14 @@ byu-search input[type=search] {
   .h4-sentinel h4 a,
   .h5-sentinel h5 span,
   .h5-sentinel h5 a {
-    font-family: "Sentinel A", "Sentinel B", "Vitesse A", "Vitesse B", Helvetica, serif; }
+    font-family: "HCo Ringside Narrow SSm", Arial, sans-serif; }
 
 .h1-sourcesans h1,
 .h2-sourcesans h2,
 .h3-sourcesans h3,
 .h4-sourcesans h4,
 .h5-sourcesans h5 {
-  font-family: 'Source Sans Pro', sans-serif; }
+  font-family: "HCo Ringside Narrow SSm", Arial, sans-serif; }
   .h1-sourcesans h1 span, .h1-sourcesans h1 a,
   .h2-sourcesans h2 span,
   .h2-sourcesans h2 a,
@@ -176,14 +176,14 @@ byu-search input[type=search] {
   .h4-sourcesans h4 a,
   .h5-sourcesans h5 span,
   .h5-sourcesans h5 a {
-    font-family: 'Source Sans Pro', sans-serif; }
+    font-family: "HCo Ringside Narrow SSm", Arial, sans-serif; }
 
 .h1-libreb h1,
 .h2-libreb h2,
 .h3-libreb h3,
 .h4-libreb h4,
 .h5-libreb h5 {
-  font-family: 'Libre Baskerville', serif; }
+  font-family: "HCo Ringside Narrow SSm", Arial, sans-serif; }
   .h1-libreb h1 span, .h1-libreb h1 a,
   .h2-libreb h2 span,
   .h2-libreb h2 a,
@@ -193,7 +193,7 @@ byu-search input[type=search] {
   .h4-libreb h4 a,
   .h5-libreb h5 span,
   .h5-libreb h5 a {
-    font-family: 'Libre Baskerville', serif; }
+    font-family: "HCo Ringside Narrow SSm", Arial, sans-serif; }
 
 .h1-navy h1, .h2-navy h2, .h3-navy h3, .h4-navy h4, .h5-navy h5 {
   color: #002E5D; }
@@ -277,9 +277,9 @@ byu-menu {
 /*}*/
 /* - mobile */
 @media screen and (max-width: 767px) {
-  byu-footer:not('normal') .two-column,
-  byu-footer:not('normal') .three-column,
-  byu-footer:not('normal') .four-column {
+  byu-footer:not(.normal) .two-column,
+  byu-footer:not(.normal) .three-column,
+  byu-footer:not(.normal) .four-column {
     column: 1; } }
 
 /* tablet */
