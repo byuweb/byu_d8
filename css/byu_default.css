@@ -58,15 +58,26 @@ byu-header[mobile-view] [slot="actions"] p {
   padding-bottom: 0;
   margin: 0; }
 
-[slot="actions"] div,
-[slot="actions"] p {
-  padding-bottom: 0;
-  margin: 0 15px; }
-
 [slot="actions"] a:hover {
   text-decoration: none; }
 
 [slot="actions"].royal div.block {
+  margin: 0 10px;
+  padding: 2px;
+  background: #003DA5; }
+
+byu-header[mobile-view] [slot="actions2"] a {
+  color: #002E5D;
+  font-weight: 500; }
+
+byu-header[mobile-view] [slot="actions2"] p {
+  padding-bottom: 0;
+  margin: 0; }
+
+[slot="actions2"] a:hover {
+  text-decoration: none; }
+
+[slot="actions2"].royal div.block {
   margin: 0 10px;
   padding: 2px;
   background: #003DA5; }
